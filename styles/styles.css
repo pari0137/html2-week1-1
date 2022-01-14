@@ -67,6 +67,13 @@ body{
     background-color:blanchedalmond;
 }
 
+/* the class cleafix will be used anytime we want an element to see the height of*/
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* to target an ID, use the # before the ID name */
 #reallyBig{
     font-size:48px;
@@ -93,4 +100,19 @@ main{
     border: 2px solid black;
 }
 
+main img{
+    width: 30%;
+    float: left; /* text wraps around floated image */
+    margin-right: 10px;
+}
 
+/* add some padding to the footer so we can play with a background image */
+footer{
+    padding: 40px 10px; /* 40px top-bottom 10px left-right */
+    background-image: url(../images/sky.jpg); /* ../ means go up one folder */
+    background-repeat: no-repeat;
+    /*background-size: contain; - contain makes the entire background image visible within the element */
+    background-size: cover; /* ensures the background image always covers the entire element */
+    background-position: bottom; /* two values will be horisontal position and vertical position */
+    /* background position can have top, bottom, left, right, center or fixed value */
+}
