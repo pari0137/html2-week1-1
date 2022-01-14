@@ -53,7 +53,7 @@ table {
 
 
 html{
-    background-color:aquamarine;
+    background-color:rgb(95, 178, 233);
     font-size:18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -64,7 +64,7 @@ body{
     /* two values on margin means top-bottom, left-right
     the space between the two values means you are applying all the values */
     margin:0 auto; /* this will centre the site in the browser window */
-    background-color:blanchedalmond;
+    background-color:rgb(255, 255, 255);
 }
 
 /* the class cleafix will be used anytime we want an element to see the height of*/
@@ -86,7 +86,7 @@ body{
 
 /* target only the paragraphs that are inside the main tag */
 main p{
-    color:red;
+    color:rgb(255, 255, 255);
 }
 
 /* CSS box model includes margin, border, and padding:
@@ -94,7 +94,7 @@ main p{
     padding is inside the element and pushes content away from the element's edge
     border is in between the two */
 main{
-    background-color:cadetblue;
+    background-color:rgb(106, 172, 104);
     margin:10px; /* one value means apply to all sides */
     padding:15px;
     border: 2px solid black;
